@@ -7,4 +7,14 @@ router.get("/", function(req,res){
     res.render("index");
 });
 
+router.get("/home", function(req,res){
+    console.log("Hello");
+    res.render("home");
+});
+
+router.get("/about", function(req,res){
+    console.log("Hello");
+    res.render("about");
+});
+
 module.exports = router;
