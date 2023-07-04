@@ -1,25 +1,27 @@
+//STORE ALL YOUR ROUTES
+
 var express = require("express");
 
 var router = express.Router();
 
+//add in error and info (EXTRA)
+
 router.get("/", function(req,res){
-    console.log("Hello");
-    res.render("index");
+    res.render("home/");
 });
 
 router.get("/home", function(req,res){
-    console.log("Hello");
-    res.render("home");
+    res.render("home/home");
 });
 
 router.get("/about", function(req,res){
-    console.log("Hello");
-    res.render("about");
+    res.render("home/about");
 });
 
 router.get("/test", function(req,res){
-    console.log("Hello");
-    res.render("test");
+    res.render("home/test");
 });
+
+
 
 module.exports = router;

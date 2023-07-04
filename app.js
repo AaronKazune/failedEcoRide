@@ -1,7 +1,7 @@
 var express = require("express");
 var path = require("path");
 
-var routes = require("./routes");
+//var routes = require("./routes");
 
 var app = express();
 
@@ -16,7 +16,8 @@ app.use(express.static(path.join(__dirname + 'public')));
 //app.set("Admin",path.join(__filename,"Admin"));
 //app.set("view engine", "html");
 
-app.use(routes);
+app.use("/", require("./routes/web"));
+app.use("/api", require("./routes/api"));
 
 app.listen(app.get("port"),function(){
     console.log("Server started on port " + app.get("port"));
