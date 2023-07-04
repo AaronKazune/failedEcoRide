@@ -18,8 +18,8 @@ router.get("/about", function(req,res){
     res.render("home/about");
 });
 
-router.get("/test", function(req,res){
-    res.render("home/test");
+router.get("/admin", function(req,res){
+    res.render("admin/admin_overview");
 });
 
 
