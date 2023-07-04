@@ -1,0 +1,97 @@
+.background{
+    
+    background-color: transparent;
+  
+  
+  justify-content: center;
+  width: 100%
+}
+body{
+    
+    background-color: #d9d9d94c;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 12.5rem;
+    
+}
+.top{
+    background-color: transparent;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+    background-color: #ffffff;
+    height: 9.5rem;
+  padding-top: 0.1px;
+}
+.title{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.revenue-wrapper{
+    display: inline-block;
+  flex-direction: row;
+    background-color: #ffffff;
+    border: 0px none;
+  height: 440px;
+  width: 850px;
+  border-radius: 20px;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  text-align: left;
+  
+  
+}
+.portfolio-wrapper{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 0px none;
+  height: 440px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.rev-port-wrapper{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.subhead{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.transaction-wrapper{
+    width: 95%;
+    margin: auto;
+    height: 23rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 3rem;
+    text-align: left;
+    margin-top: 2rem;
+  margin-right: 4rem;
+  padding-top: 8px;
+}
+.booking-status-wrapper{
+    width: 95%;
+    margin: auto;
+    height: 23rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 3rem;
+    text-align: left;
+    margin-top: 2rem;
+  margin-right: 4rem;
+  padding-top: 8px;
+    
+}
+.content{
+    
+    text-align: center;
+    width: 97%;
+    margin:auto
+}
