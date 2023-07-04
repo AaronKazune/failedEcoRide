@@ -1,12 +1,49 @@
 
 <%- include('../_partial/_sidenav'); %>
+<head>
+  <link rel="stylesheet" href="/css/admin_overview.css">
+</head>
+<div class="background">
+  <section class="top">
+    <div class="title">
+      <h1>Welcome, Charlotte</h1>
+      <p>Here's whats happening</p>
+    </div>
+  </section>
 
-<div class="main">
-  <h2>Sidenav Example</h2>
-  <p>This sidenav is always shown.</p>
+  <div class="content">
+    <section class="rev-port-wrapper">
+      <div class="revenue-wrapper">
+        <div>
+          <p class="subhead">Revenue</p>
+        </div>
+      </div>
+      <div class="portfolio-wrapper">
+        <div>
+          <p class="subhead">Portfolio Value</p>
+        </div>
+      </div>
+    </section>
+    
+    <div class="transaction-wrapper">
+      <div>
+        <p class="subhead">Transaction</p>
+      </div>
+      
+    </div>
+    
+    <div class="booking-status-wrapper">
+      <div>
+        <p class="subhead">Booking Status</p>
+      </div>
+      
+    </div>
+  </div>
+
 </div>
    
 </body>
+<%- include('../_partial/_botnav'); %>
 </html> 
 
 

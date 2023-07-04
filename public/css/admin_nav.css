@@ -4,7 +4,7 @@ body {
   }
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 12.5rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -50,3 +50,45 @@ body {
 .navlink{
     font-size: 20px;
 }
+hr{
+    width: 90%;
+    border: 1px,white;
+}
+
+
+.botnavbar-container {
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    bottom: 0;
+    width: 87% ;
+
+  }
+  
+  .botnavbar-container a {
+    
+    display: inline-block;
+    color: #818181;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .botnavbar-container a:hover {
+    color: #f1f1f1;
+  }
+  
+ 
+  .botnavbar-right{
+    float: right;
+  }
+  .botnavbar-center{
+    float: none;
+    position: absolute;
+    left: 38%;
+  }
+  .botnavbar-left{
+    float: left;
+
+  }
