@@ -2,11 +2,6 @@ var express = require("express");
 
 var router = express.Router();
 
-
-
-//router.get("/signup", function(req,res){
-    //res.render("home/signup");
-//});
-
+router.get('/test', (req, res) => res.send('API test route works'));
 
 module.exports = router;
