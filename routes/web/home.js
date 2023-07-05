@@ -6,6 +6,7 @@ var router = express.Router();
 
 //add in error and info (EXTRA)
 
+
 router.get("/", function(req,res){
     res.render("home/");
 });
@@ -18,9 +19,7 @@ router.get("/about", function(req,res){
     res.render("home/about");
 });
 
-router.get("/admin", function(req,res){
-    res.render("admin/admin_overview");
-});
+
 
 router.get("/Login", function(req,res){
     res.render("home/login");
@@ -29,5 +28,8 @@ router.get("/Login", function(req,res){
 router.get("/signup", function(req,res){
     res.render("home/signup");
 });
+
+
+
 
 module.exports = router;

@@ -1,9 +1,18 @@
 var express = require("express");
 var path = require("path");
+var mysql = require('mysql');
 
 //var routes = require("./routes");
 
 var app = express();
+
+const db = mysql.createConnection({
+    host:"localhost",
+    user:"root",
+    password:"ecoride",
+    database:"ecoride"
+});
+
 
 app.set("port",process.env.PORT || 3000);
 
