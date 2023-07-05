@@ -22,6 +22,12 @@ router.get("/admin", function(req,res){
     res.render("admin/admin_overview");
 });
 
+router.get("/Login", function(req,res){
+    res.render("home/login");
+});
 
+router.get("/signup", function(req,res){
+    res.render("home/signup");
+});
 
 module.exports = router;
