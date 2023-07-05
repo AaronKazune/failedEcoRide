@@ -11,12 +11,6 @@ router.get("/admin", function(req,res){
 });
 
 
-router.get("/add", function(req,res){
-    res.render("/admin/add");
-});
-router.get("/update", function(req,res){
-    res.render("src/pages/update");
-});
 
 
 //add in error and info (EXTRA)
